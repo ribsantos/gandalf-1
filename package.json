@@ -1,0 +1,20 @@
+{
+  "name": "gandalf",
+  "version": "1.0.0",
+  "description": "its a bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@n-h-n/discord.js-12.5.3": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^2.0.12",
+    "ytdl-core": "^4.1.4"
+  }
+}
